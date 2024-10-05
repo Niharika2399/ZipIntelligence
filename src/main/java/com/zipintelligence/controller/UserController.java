@@ -1,4 +1,4 @@
-package com.zipintelligence.controller;
+/*package com.zipintelligence.controller;
 
 import java.util.List;
 
@@ -11,15 +11,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zipintelligence.entities.User;
+import com.zipintelligence.model.UserOld;
 import com.zipintelligence.service.UserService;
 
-import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.info.Info;
 import io.swagger.v3.oas.annotations.tags.Tag;
 
-@OpenAPIDefinition(info = @Info(title = "Zipintelligence API",version = "1.0.0",description = "Zipintelligence API Information"))
+
 @Tag(name = "Users", description = "User APIs")
 @RestController
 @RequestMapping("api/v1/users")
@@ -41,4 +39,4 @@ public class UserController {
         return userService.createUser(user);
     }
 
-}
+} */
